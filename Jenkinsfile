@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ANSIBLE_SERVER = "167.99.136.157"
+        ANSIBLE_SERVER = "206.189.143.23"
     }
     stages {
         stage("copy files to ansible server") {
